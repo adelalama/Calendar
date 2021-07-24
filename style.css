@@ -1,0 +1,72 @@
+
+body,
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: #1f1f1f;
+}
+
+h1,
+p.lead {
+  font-family: 'Poppins', sans-serif;
+}
+p#currentDay.lead {
+  font-weight: bold;
+}
+.jumbotron {
+  text-align: center;
+  background-color: #fff;
+  border-bottom: 1px solid #1f1f1f;
+  border-radius: 0px;
+}
+.description,
+.row {
+  white-space: pre-wrap;
+}
+
+
+.textarea {
+  background: transparent;
+  resize: none;
+  border-left: 1px dotted #1f1f1f;
+  font-size: 22px;
+}
+.time-block {
+  text-align: center;
+  border-radius: 15px;
+  padding-bottom: 10px;
+}
+.hour {
+  background-color: #fff;
+  font-weight: bold;
+  height: 79px;
+  color: #1f1f1f;
+}
+.past {
+  background-color: #dfe6e9;
+}
+.present {
+  background-color: #ff7675;
+}
+.future {
+  background-color: #7bed9f;
+}
+.saveBtn {
+  border-left: 1px solid #1f1f1f;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #74b9ff;
+  color: #fff;
+  padding: 20px 40px;
+}
+footer {
+  text-align: center;
+  padding-top: 16px;
+}
+.show {
+  display: block;
+}
+.ghost {
+  opacity: 0.0;
+}
+
